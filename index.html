@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="left">
+      <div class="left-box">
+        <a href="https://github.com/Ruminov">Ruminov</a>
+      </div>
+      <div class="image-author">
+        Photo by
+        <a
+          href="https://unsplash.com/photos/body-of-water-between-bare-trees-during-daytime-OnmnyEoMtzw"
+          target="_blank"
+          >Andres Herrera</a
+        >
+      </div>
+    </div>
+    <div class="right">
+      <div class="right-container">
+        <div class="message-box">
+          <p class="message">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+            <br />Sign up <i>now</i> to get started.
+          </p>
+          <p class="sign-up-message">You <i>know</i> you want to.</p>
+        </div>
+        <div class="form-box">
+          <span class="form-message">Let's do this!</span>
+          <form action="" method="post" id="input-form">
+            <div>
+              <label for="first-name">FIRST NAME</label
+              ><input type="text" id="first-name" minlength="3" required />
+            </div>
+            <div>
+              <label for="last-name">LAST NAME</label
+              ><input type="text" id="last-name" minlength="3" required />
+            </div>
+            <div>
+              <label for="mail">EMAIL</label
+              ><input type="email" id="mail" required />
+            </div>
+            <div>
+              <label for="phone">PHONE NUMBER</label
+              ><input type="tel" minlength="10" pattern="\d{10}" required />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label
+              ><input type="password" id="password" minlength="8" required />
+            </div>
+            <div>
+              <label for="confirm">CONFIRM PASSWORD</label
+              ><input type="password" id="confirm" minlength="8" required />
+            </div>
+          </form>
+        </div>
+        <div class="submit-box">
+          <button type="submit" form="input-form">Create account</button>
+          <span class="submit-message"
+            >Already have an account? <a href="">Log in</a></span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

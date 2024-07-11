@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100svh;
+  background-color: #dadada;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/andres-herrera-OnmnyEoMtzw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.left-box {
+  background-color: #585252bb;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 16px;
+  position: relative;
+  top: calc(100vh / 4);
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.left-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-author {
+  margin: 8px;
+}
+
+.image-author a {
+  color: #000;
+}
+
+.right {
+  flex: 2;
+  background-image: url(img/odin-lined.png);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  /* filter: invert(20%); */
+  background-size: contain;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+}
+
+.message-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-end;
+  padding: 32px;
+  font-weight: 500;
+}
+
+.message,
+.sign-up-message {
+  font-size: 22px;
+  width: 45ch;
+}
+
+.form-box {
+  flex: 1;
+  background-color: #eff0f099;
+  padding: 16px 32px;
+}
+
+.form-message {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+form {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 48px;
+  row-gap: 24px;
+  max-width: min(612px, 45vw);
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+}
+
+input {
+  width: 250px;
+  height: 32px;
+  background-color: #e6e7e7;
+  border: 1px solid #b8bdbd;
+  border-radius: 6px;
+}
+
+input:invalid {
+  border: 1px solid #c23a3a;
+}
+
+input:focus {
+  outline-color: #354083;
+}
+
+.submit-box {
+  flex: 1;
+}
+
+p {
+  margin: 0;
+}
+
+.submit-box {
+  padding: 32px;
+}
+
+button {
+  display: block;
+  color: #ffffff;
+  background-color: #485c6d;
+  font-size: 20px;
+  padding: 8px 40px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 8px -4px #000000;
+  margin-bottom: 32px;
+}
+.submit-message a {
+  text-decoration: none;
+  color: #485c6d;
+  font-weight: 500;
+}
+.submit-message {
+}
