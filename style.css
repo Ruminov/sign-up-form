@@ -55,7 +55,6 @@ body {
   background-image: url(img/odin-lined.png);
   background-repeat: no-repeat;
   background-position: 90% center;
-  /* filter: invert(20%); */
   background-size: contain;
 }
 
@@ -151,6 +150,4 @@ button {
   text-decoration: none;
   color: #485c6d;
   font-weight: 500;
-}
-.submit-message {
 }
